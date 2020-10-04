@@ -1,0 +1,85 @@
+/* Här är styling som gäller för hela sidan */
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, "sans serif";
+  color: #ff726c;
+  margin: 0;
+}
+
+/* Här finns all styling för knappen */
+
+.button {
+  background-color: white;
+  color: #ff726c;
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Här är styling som gäller för alla rubriker och texter */
+
+h1 {
+  margin: 20px;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+h3 {
+  margin-top: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+  color: black;
+  margin-bottom: 15px;
+}
+
+/* Här är styling för text boxen som vi använder runt texterna i about-me sektionen och greatness sektionen. */
+
+.text-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Här är styling för about-me sektionen */
+
+.about-me {
+  background-color: #ff726c;
+  padding: 85px 22px;
+  color: white;
+  text-align: center;
+}
+
+/* Här är styling för bilden som ligger i about-me sektionen */
+
+.about-me img {
+  width: 220px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Här är styling för greatness sektionen */
+
+.greatness {
+  padding: 120px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Här är styling för footern på sidan */
+
+footer {
+  background-color: #fbcfcd;
+  padding: 110px 300px;
+}
