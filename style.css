@@ -45,21 +45,12 @@ p {
   margin-bottom: 25px;
 }
 
-.important {
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
 #meButton {
   margin-bottom: 55px;
 }
 
 .thirdGreatness {
   margin-bottom: 75px;
-}
-
-.contactMe {
-  margin-top: 75px;
 }
 
 .space-fontawesome {
@@ -94,11 +85,10 @@ p {
 
 /* Här är styling för greatness sektionen */
 
-.greatness {
-  padding: 120px 30px;
-  width: 60%;
-  padding-left: 260px;
-  padding-right: 350px;
+.info-box {
+  width: 80%;
+  margin: auto;
+  padding: 85px 0 85px 0;
   text-align: justify;
 }
 
@@ -111,19 +101,51 @@ p {
   margin-top: 40%;
 }
 
-.descWhyDahl {
+.desc-why-dahl {
   color: black;
-  
 }
 
+#info-box-wrapper {
+  background-color: #fbcfcd;
+}
+
+a.highlighted-link:link{
+  font-weight: 600;
+  text-decoration: underline;
+}
 
 /* Här är styling för footern på sidan */
 
 footer {
-  background-color: #fbcfcd;
-  padding: 120px 30px;
-  text-align: justify;
-  padding-left: 260px;
-  padding-right: 350px;
-  
+  background-color: #fff;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+footer h3 {
+  margin-top: 30px; 
+}
+
+footer p {
+ color: #ff726c;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ff726c;
+}
+
+/* visited link */
+a:visited {
+  color: bold;
+}
+
+/* mouse over link */
+a:hover {
+  font-weight: bold;
+}
+
+/* selected link */
+a:active {
+  font-weight: bold;
 }

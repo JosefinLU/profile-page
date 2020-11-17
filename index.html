@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Josefin's Profile</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
     rel="stylesheet"
@@ -26,13 +26,15 @@
       <h3 id="meButton">
         I pay attention to details and I'm good at having a broad overview of the projects.
       </h3>
+      <!--blank attrib open new window on click on links-->
       <a
         class="button"
+        target="_blank"
         href="https://www.linkedin.com/in/josefin-lundquist-b47b1a156/?midToken=AQF3r8X23hHDOA&trk=eml-email_pymk_01-header-101-profile&trkEmail=eml-email_pymk_01-header-101-profile-null-aezilj%7Ekehmtvdc%7Ell-null-neptune%2Fprofile%7Evanity%2Eview"
         >information - My Linkedin</a
       >
     </section>
-    <section class="greatness">
+    <section class="info-box">
       <h2>Top 3 things that I'm great at:</h2>
       <h3>1. Building relationships</h3>
       <p>
@@ -56,7 +58,7 @@
       <a class="why" href="javascript: void(0);" onClick="toggle('q1')">
         Find out Why I want to work at Dahl
         </a>
-        <div class="descWhyDahl" id="q1" style="display:none;">
+        <div class="desc-why-dahl" id="q1" style="display:none;">
           <p>
             Genom en rekommendation från en medarbetare hos er så tittade jag på er annons och jag vill villigt medge att den 
             fångade mitt intresse. Det som lockade mig först var er beskrivning av er arbetskultur. 
@@ -100,33 +102,41 @@
           </p>
         </div>
     </section>
+    <div id="info-box-wrapper">
+      <section class="info-box">
+        <h2>Additional relevant experience:</h2>
+        <h3>Academy 2019 October - 2020 January:</h3>
+        <p>
+          We did a lot of different projects at Academy using some of these
+          technologies: Java, JavaScript, HTML, CSS, SQL, Ajax, jQUEARY, JSON, REST,
+          git, UX, React, Spring Boot mvc, Web security Scrum and Agile methods.
+          <a href="https://www.scrum.org/certificates/472303" class="highlighted-link">Certification in Scrum</a>
+        </p>
+        <h3>Some of my projects that are in the loop of progress right now</h3>
+        <p>My weather app with JavaScript and Vue.js <a class="highlighted-link" href="https://findouttheweather.netlify.app/">Check the weather</a>
+        <p>My Quiz app with JavaScript(vanilla) <a class="highlighted-link" href="https://quizofjosefin.netlify.app/">Play The Quiz</a>
+          <p>My Nike shoes shop app with JavaScript and Vue.js <a class="highlighted-link" href="https://vue-shop-cards.netlify.app/">Check the shoes</a>
+          <h3>Some courses/events I have been a part of:</h3>
+        <p>Pluralsight - Course: "Vue: Getting Started" 2020 October</p>
+        <p>Pluralsight - Course: "JavaScript: Getting started" 2020 September</p>
+        <p>Tjejer Kodar - Webinar: “What is React?” 2020 September</p>
+        <p>Tjejer kodar - “Börja koda Onlinekurs” 2020 August</p>
+        <p>Tjejer Kodar - “Mobprogrammering” JavaScript 2019 December</p>
+        <p>
+          Udemy - “Java for Absolute Beginners” 2019 October
+          <a
+             class="highlighted-link" href="https://udemy-certificate.s3.amazonaws.com/image/UC-VMM003I1.jpg"
+             >Certificate</a
+             >
+       </p>
+        <p>Pink Programming Sunday - JavaScript workshop 2019 April</p>
+        <p>Udacity - JavaScript: “Intro to JavaScript” 2019 January</p>
+      </section>
+    </div>
     <footer>
-      <h2>Additional relevant experience:</h2>
-      <h3>Academy 2019 October - 2020 January:</h3>
-      <p>
-        We did a lot of different projects at Academy using some of these
-        technologies: Java, JavaScript, HTML, CSS, SQL, Ajax, jQUEARY, JSON, REST,
-        git, UX, React, Spring Boot mvc, Web security Scrum and Agile methods.
-        <a href="https://www.scrum.org/certificates/472303">Certification in Scrum</a>
-      </p>
-      <h3>Some of my projects that are in the loop of progress right now</h3>
-      <p>My weather app with JavaScript and Vue.js <a class="important" href="https://findouttheweather.netlify.app/">Check the weather</a></strong>
-      <p>My Quiz app with JavaScript(vanilla) <a class="important" href="https://quizofjosefin.netlify.app/">Play The Quiz</a></strong>
-        <p>My Nike shoes shop app with JavaScript and Vue.js <a class="important" href="https://vue-shop-cards.netlify.app/">Check the shoes</a></strong>
-        <h3>Some courses/events I have been a part of:</h3>
-      <p>Pluralsight - Course: "Vue: Getting Started" 2020 October</p>
-      <p>Pluralsight - Course: "JavaScript: Getting started" 2020 September</p>
-      <p>Tjejer Kodar - Webinar: “What is React?” 2020 September</p>
-      <p>Tjejer kodar - “Börja koda Onlinekurs” 2020 August</p>
-      <p>Tjejer Kodar - “Mobprogrammering” JavaScript 2019 December</p>
-      <p>Pink Programming Sunday - JavaScript workshop 2019 April</p>
-      <p>Udacity - JavaScript: “Intro to JavaScript” 2019 January</p>
-        <h3 class="contactMe">Contact me</h3>
-        <ul class="footer-lists">
-          <li<i class="fas fa-phone"></i> 0708373765<br></li>
-          <p class="space-fontawesome"></p>
-          <li<i class="far fa-envelope"></i> miss_lundquist@outlook.com</li>
-      </ul>
+        <h3>Contact me</h3>
+        <p><i class="fas fa-phone"></i> <a href="tel:0708373765"> 0708373765</a></p>
+        <p><i class="far fa-envelope"></i><a href="mailto: miss_lundquist@outlook.com"> miss_lundquist@outlook.com</a></p>
     </footer>
   </body>
 <script type="text/javascript">
