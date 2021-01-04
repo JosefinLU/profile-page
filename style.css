@@ -95,7 +95,7 @@ p {
 .why {
   font-weight: bold;
   color: #ff726c;
-  font-size: 18px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 50px;
   margin-top: 40%;
@@ -110,7 +110,7 @@ p {
 }
 
 a.highlighted-link:link{
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: underline;
 }
 
