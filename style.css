@@ -1,8 +1,11 @@
-/* Här är styling som gäller för hela sidan */
+/* Här är styling som gäller för hela sidan 
+/Images/pexels-free-creative-stuff-5649204.mp4"
+*/
 body {
   box-sizing: border-box;
   font-family: Helvetica, "sans serif";
-  color: #ff726c;
+  color: #8e5431;
+  /*color: #ff726c;*/
   margin: 0;
 }
 
@@ -10,7 +13,7 @@ body {
 
 .button {
   background-color: white;
-  color: #ff726c;
+  color: #e44f9c;
   padding: 25px;
   border-radius: 40px;
   text-transform: uppercase;
@@ -21,7 +24,7 @@ body {
 /* Här är styling som gäller för alla rubriker och texter */
 
 h1 {
-  margin: 20px;
+  margin: 1px;
   font-size: 65px;
 }
 
@@ -45,6 +48,22 @@ p {
   margin-bottom: 25px;
 }
 
+#banner {
+  position: relative;
+  height: 860px;
+  width: 100%;
+  overflow: hidden;
+}
+#videobcg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -100;
+}
 #meButton {
   margin-bottom: 55px;
 }
@@ -57,7 +76,6 @@ p {
   margin-bottom: 5px;
 }
 
-
 /* Här är styling för text boxen som vi använder runt texterna i about-me sektionen och greatness sektionen. */
 
 .text-container {
@@ -68,8 +86,8 @@ p {
 /* Här är styling för about-me sektionen */
 
 .about-me {
-  background-color: #ff726c;
-  padding: 85px 22px;
+  /*background-color: #ff726c; */
+  padding: 70px 22px;
   color: white;
   text-align: center;
 }
@@ -77,7 +95,7 @@ p {
 /* Här är styling för bilden som ligger i about-me sektionen */
 
 .about-me img {
-  width: 220px;
+  width: 250px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -94,7 +112,7 @@ p {
 
 .why {
   font-weight: bold;
-  color: #ff726c;
+  color: #96304c;
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -106,10 +124,10 @@ p {
 }
 
 #info-box-wrapper {
-  background-color: #fbcfcd;
+  background-color: #ffd6e9;
 }
 
-a.highlighted-link:link{
+a.highlighted-link:link {
   font-weight: 400;
   text-decoration: underline;
 }
@@ -123,16 +141,16 @@ footer {
 }
 
 footer h3 {
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 footer p {
- color: #ff726c;
+  color: #e44f9c;
 }
 
 a:link {
   text-decoration: none;
-  color: #ff726c;
+  color: #e44f9c;
 }
 
 /* visited link */
